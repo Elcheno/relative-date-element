@@ -171,7 +171,7 @@ class RelativeDateElement extends HTMLElement {
   }
 
   async connectedCallback() {
-    const lang = this.getAttribute('lang') ?? document.documentElement.lang;
+    const lang = this.getAttribute('lang') ?? 'en';
     this._lang = await this._loadTranslations(lang);
 
     this._setValueDate();
@@ -179,7 +179,7 @@ class RelativeDateElement extends HTMLElement {
 
   async attributeChangedCallback(name, oldValue, newValue) {
     if (name === 'lang') {
-      const lang = this.getAttribute('lang') ?? document.documentElement.lang;
+      const lang = this.getAttribute('lang') ?? 'en';
       this._lang = await this._loadTranslations(lang);
       this._setValueDate();
     } else if (name === 'date') {
