@@ -1,8 +1,8 @@
-# DateCustomElement
+# Relative Date Element
 
 ## Descripción
 
-`DateCustomElement` es un custom element que muestra el tiempo relativo desde una fecha dada. Este componente es capaz de mostrar la diferencia de tiempo tanto en el pasado como en el futuro y tiene soporte para múltiples idiomas.
+`Relative Date Element` es un custom element que muestra el tiempo relativo desde una fecha dada. Este componente es capaz de mostrar la diferencia de tiempo tanto en el pasado como en el futuro y tiene soporte para múltiples idiomas.
 
 ## Características
 
