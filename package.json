@@ -1,0 +1,19 @@
+{
+  "name": "relative-date-element",
+  "version": "1.0.0",
+  "description": "## Descripción",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elcheno/relative-date-element.git"
+  },
+  "author": "Elcheno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elcheno/relative-date-element/issues"
+  },
+  "homepage": "https://github.com/elcheno/relative-date-element#readme"
+}
