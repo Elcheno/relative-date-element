@@ -1,0 +1,23 @@
+{
+  "now": "agora mesmo",
+  "second": "há {value} segundo",
+  "seconds": "há {value} segundos",
+  "minute": "há {value} minuto",
+  "minutes": "há {value} minutos",
+  "hour": "há {value} hora",
+  "hours": "há {value} horas",
+  "day": "há {value} dia",
+  "days": "há {value} dias",
+  "week": "há {value} semana",
+  "weeks": "há {value} semanas",
+  "afterSecond": "em {value} segundo",
+  "afterSeconds": "em {value} segundos",
+  "afterMinute": "em {value} minuto",
+  "afterMinutes": "em {value} minutos",
+  "afterHour": "em {value} hora",
+  "afterHours": "em {value} horas",
+  "afterDay": "em {value} dia",
+  "afterDays": "em {value} dias",
+  "afterWeek": "em {value} semana",
+  "afterWeeks": "em {value} semanas"
+}

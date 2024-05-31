@@ -1,0 +1,23 @@
+{
+  "now": "только что",
+  "second": "{value} секунду назад",
+  "seconds": "{value} секунд назад",
+  "minute": "{value} минуту назад",
+  "minutes": "{value} минут назад",
+  "hour": "{value} час назад",
+  "hours": "{value} часов назад",
+  "day": "{value} день назад",
+  "days": "{value} дней назад",
+  "week": "{value} неделю назад",
+  "weeks": "{value} недель назад",
+  "afterSecond": "через {value} секунду",
+  "afterSeconds": "через {value} секунд",
+  "afterMinute": "через {value} минуту",
+  "afterMinutes": "через {value} минут",
+  "afterHour": "через {value} час",
+  "afterHours": "через {value} часов",
+  "afterDay": "через {value} день",
+  "afterDays": "через {value} дней",
+  "afterWeek": "через {value} неделю",
+  "afterWeeks": "через {value} недель"
+}

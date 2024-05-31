@@ -1,0 +1,23 @@
+{
+  "now": "proprio adesso",
+  "second": "{value} secondo fa",
+  "seconds": "{value} secondi fa",
+  "minute": "{value} minuto fa",
+  "minutes": "{value} minuti fa",
+  "hour": "{value} ora fa",
+  "hours": "{value} ore fa",
+  "day": "{value} giorno fa",
+  "days": "{value} giorni fa",
+  "week": "{value} settimana fa",
+  "weeks": "{value} settimane fa",
+  "afterSecond": "tra {value} secondo",
+  "afterSeconds": "tra {value} secondi",
+  "afterMinute": "tra {value} minuto",
+  "afterMinutes": "tra {value} minuti",
+  "afterHour": "tra {value} ora",
+  "afterHours": "tra {value} ore",
+  "afterDay": "tra {value} giorno",
+  "afterDays": "tra {value} giorni",
+  "afterWeek": "tra {value} settimana",
+  "afterWeeks": "tra {value} settimane"
+}

@@ -1,0 +1,23 @@
+{
+  "now": "à l'instant",
+  "second": "il y a {value} seconde",
+  "seconds": "il y a {value} secondes",
+  "minute": "il y a {value} minute",
+  "minutes": "il y a {value} minutes",
+  "hour": "il y a {value} heure",
+  "hours": "il y a {value} heures",
+  "day": "il y a {value} jour",
+  "days": "il y a {value} jours",
+  "week": "il y a {value} semaine",
+  "weeks": "il y a {value} semaines",
+  "afterSecond": "dans {value} seconde",
+  "afterSeconds": "dans {value} secondes",
+  "afterMinute": "dans {value} minute",
+  "afterMinutes": "dans {value} minutes",
+  "afterHour": "dans {value} heure",
+  "afterHours": "dans {value} heures",
+  "afterDay": "dans {value} jour",
+  "afterDays": "dans {value} jours",
+  "afterWeek": "dans {value} semaine",
+  "afterWeeks": "dans {value} semaines"
+}

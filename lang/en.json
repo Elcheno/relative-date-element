@@ -1,0 +1,23 @@
+{
+  "now": "just now",
+  "second": "{value} second ago",
+  "seconds": "{value} seconds ago",
+  "minute": "{value} minute ago",
+  "minutes": "{value} minutes ago",
+  "hour": "{value} hour ago",
+  "hours": "{value} hours ago",
+  "day": "{value} day ago",
+  "days": "{value} days ago",
+  "week": "{value} week ago",
+  "weeks": "{value} weeks ago",
+  "afterSecond": "in {value} second",
+  "afterSeconds": "in {value} seconds",
+  "afterMinute": "in {value} minute",
+  "afterMinutes": "in {value} minutes",
+  "afterHour": "in {value} hour",
+  "afterHours": "in {value} hours",
+  "afterDay": "in {value} day",
+  "afterDays": "in {value} days",
+  "afterWeek": "in {value} week",
+  "afterWeeks": "in {value} weeks"
+}
