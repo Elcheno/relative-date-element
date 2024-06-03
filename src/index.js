@@ -11,17 +11,66 @@ const _TIME_VALUES = {
   _DAY_: 7,
 }
 
+const _LANG_ = {
+  es: {
+    "now": "ahora",
+    "second": "hace {value} segundo",
+    "seconds": "hace {value} segundos",
+    "minute": "hace {value} minuto",
+    "minutes": "hace {value} minutos",
+    "hour": "hace {value} hora",
+    "hours": "hace {value} horas",
+    "day": "hace {value} día",
+    "days": "hace {value} día",
+    "week": "hace {value} semana",
+    "weeks": "hace {value} semanas",
+    "afterSecond": "dentro de {value} segundo",
+    "afterSeconds": "dentro de {value} segundos",
+    "afterMinute": "dentro de {value} minuto",
+    "afterMinutes": "dentro de {value} minutos",
+    "afterHour": "dentro de {value} hora",
+    "afterHours": "dentro de {value} horas",
+    "afterDay": "dentro de {value} día",
+    "afterDays": "dentro de {value} día",
+    "afterWeek": "dentro de {value} semana",
+    "afterWeeks": "dentro de {value} semanas"
+  }, en: {
+    "now": "now",
+    "second": "in {value} second",
+    "seconds": "in {value} seconds",
+    "minute": "in {value} minute",
+    "minutes": "in {value} minutes",
+    "hour": "in {value} hour",
+    "hours": "in {value} hours",
+    "day": "in {value} day",
+    "days": "in {value} days",
+    "week": "in {value} week",
+    "weeks": "in {value} weeks",
+    "afterSecond": "in {value} second",
+    "afterSeconds": "in {value} seconds",
+    "afterMinute": "in {value} minute",
+    "afterMinutes": "in {value} minutes",
+    "afterHour": "in {value} hour",
+    "afterHours": "in {value} hours",
+    "afterDay": "in {value} day",
+    "afterDays": "in {value} days",
+    "afterWeek": "in {value} week",
+    "afterWeeks": "in {value} weeks"
+  }
+}
+
 class RelativeDateElement extends HTMLElement {
 
   static observedAttributes = ["date", "loop", "lang"];
   static _lang = null;
 
   async _loadTranslations(lang) {
-    return await fetch(`lang/${lang}.json`).then(
-      res => res.json()
-    ).then(
-      json => json
-    );
+    try {
+      return _LANG_[lang];
+    } catch (error) {
+      console.error('Error loading translations:', error);
+      return _LANG_['en'];
+    }
   }
 
   _formatString(template, values) {
